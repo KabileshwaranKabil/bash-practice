@@ -1,6 +1,5 @@
 #!/bin/bash
-name="Kabileshwaran"
-age=23
-echo "My Name is $name"
-echo "I'm $age years old."
+current_user=$(whoami)
+
+echo "Hello, $current_user"
 
